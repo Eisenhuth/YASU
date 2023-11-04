@@ -1,5 +1,8 @@
 # Yet Another Swift Utility
 
+![](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift)
+[![Workflow Badge](https://github.com/Eisenhuth/YASU/actions/workflows/swift.yml/badge.svg)](https://github.com/Eisenhuth/YASU/actions/workflows/swift.yml)
+
 packaging some basic boilerplate functions.
 ```swift
 import YASU

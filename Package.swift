@@ -2,7 +2,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "YASU - Yet Another Swift Utility",
+    name: "YASU",
+    platforms: [.iOS(.v15), .macOS(.v12), .visionOS(.v1)],
     products: [
         .library(
             name: "YASU",

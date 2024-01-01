@@ -11,7 +11,7 @@ extension Bundle {
         }
                 
         guard let decoded = try? JSONDecoder().decode(T.self, from: data) else {
-            fatalError("failed to load file\(file)")
+            fatalError("failed to load file \(file)")
         }
         
         return decoded
